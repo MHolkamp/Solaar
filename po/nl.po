@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: solaar 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 14:40+0200\n"
-"PO-Revision-Date: 2022-06-22 14:57+0200\n"
+"PO-Revision-Date: 2022-06-22 16:04+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -240,11 +240,11 @@ msgstr "koppelvergendeling uitgeschakeld"
 
 #: lib/logitech_receiver/notifications.py:91
 msgid "discovery lock is closed"
-msgstr ""
+msgstr "zoeken naar apparaten uit"
 
 #: lib/logitech_receiver/notifications.py:91
 msgid "discovery lock is open"
-msgstr ""
+msgstr "zoeken naar apparaten aan"
 
 #: lib/logitech_receiver/notifications.py:223 lib/solaar/ui/notify.py:120
 msgid "connected"
@@ -340,7 +340,7 @@ msgstr "Achtergrondverlichting"
 #: lib/logitech_receiver/settings_templates.py:208
 #: lib/logitech_receiver/settings_templates.py:225
 msgid "Set illumination time for keyboard."
-msgstr "Zet verlichtingstijd voor toetsenbord"
+msgstr "Zet verlichtingstijd voor toetsenbord."
 
 #: lib/logitech_receiver/settings_templates.py:218
 msgid "Turn illumination on or off on keyboard."
@@ -442,7 +442,7 @@ msgstr "Frequentie van apparaat peilen, in milliseconden"
 msgid "May need Onboard Profiles set to Disable to be effective."
 msgstr ""
 "Mogelijk moeten standaard profielen worden uitgeschakeld om dit te laten "
-"werken"
+"werken."
 
 #: lib/logitech_receiver/settings_templates.py:362
 msgid "Divert crown events"
@@ -458,11 +458,12 @@ msgstr ""
 
 #: lib/logitech_receiver/settings_templates.py:371
 msgid "Crown smooth scroll"
-msgstr ""
+msgstr "Kroon soepele scrol"
 
 #: lib/logitech_receiver/settings_templates.py:372
+#, fuzzy
 msgid "Set crown smooth scroll"
-msgstr ""
+msgstr "Stel kroon soepele scrol in"
 
 #: lib/logitech_receiver/settings_templates.py:380
 msgid "Divert G Keys"
@@ -478,7 +479,7 @@ msgstr ""
 
 #: lib/logitech_receiver/settings_templates.py:383
 msgid "May also make M keys and MR key send HID++ notifications"
-msgstr ""
+msgstr "Kan ook M keys en MR key HID++ notificaties laten sturen"
 
 #: lib/logitech_receiver/settings_templates.py:398
 msgid "Scroll Wheel Rachet"
@@ -524,11 +525,11 @@ msgstr ""
 
 #: lib/logitech_receiver/settings_templates.py:492
 msgid "Diverted"
-msgstr ""
+msgstr "Omgedraaid"
 
 #: lib/logitech_receiver/settings_templates.py:492
 msgid "Regular"
-msgstr ""
+msgstr "Regulier"
 
 #: lib/logitech_receiver/settings_templates.py:529
 msgid "Sensitivity (DPI)"
@@ -536,7 +537,7 @@ msgstr "Gevoeligheid (DPI)"
 
 #: lib/logitech_receiver/settings_templates.py:569
 msgid "Sensitivity Switching"
-msgstr ""
+msgstr "Schakelen van gevoeligheid"
 
 #: lib/logitech_receiver/settings_templates.py:571
 msgid ""
@@ -544,12 +545,15 @@ msgid ""
 "or button is pressed.\n"
 "If there is no remembered sensitivity, just remember the current sensitivity"
 msgstr ""
+"Schakel tussen de huidige gevoeligheid en de herinnerde gevoeligheid wanneer "
+"de toets of knop wordt ingedrukt.\n"
+"Als er geen herinnerde gevoeligheid is, onthoud dan de huidige gevoeligheid"
 
 #: lib/logitech_receiver/settings_templates.py:575
 #: lib/logitech_receiver/settings_templates.py:616
 #: lib/logitech_receiver/settings_templates.py:735
 msgid "Off"
-msgstr ""
+msgstr "Uit"
 
 #: lib/logitech_receiver/settings_templates.py:613
 msgid "DPI Sliding Adjustment"
@@ -560,6 +564,8 @@ msgid ""
 "Adjust the DPI by sliding the mouse horizontally while holding the button "
 "down."
 msgstr ""
+"Pas de DPI aan door de muis horizontaal te verschuiven terwijl u de knop "
+"ingedrukt houdt."
 
 #: lib/logitech_receiver/settings_templates.py:711
 msgid "Disable keys"
@@ -576,11 +582,13 @@ msgstr "Schakelt de %s-toets uit."
 
 #: lib/logitech_receiver/settings_templates.py:730
 msgid "Mouse Gestures"
-msgstr ""
+msgstr "Muis bewegingen"
 
 #: lib/logitech_receiver/settings_templates.py:731
 msgid "Send a gesture by sliding the mouse while holding the button down."
 msgstr ""
+"Stuur een gebaar door de muis te verschuiven terwijl u de knop ingedrukt "
+"houdt."
 
 #: lib/logitech_receiver/settings_templates.py:829
 #: lib/logitech_receiver/settings_templates.py:877
@@ -771,11 +779,11 @@ msgstr "Zoomen met twee vingers"
 
 #: lib/logitech_receiver/settings_templates.py:982
 msgid "Pixel zone"
-msgstr ""
+msgstr "Pixelzone"
 
 #: lib/logitech_receiver/settings_templates.py:983
 msgid "Ratio zone"
-msgstr ""
+msgstr "Ratiozone"
 
 #: lib/logitech_receiver/settings_templates.py:984
 msgid "Scale factor"
@@ -783,7 +791,7 @@ msgstr "Schaalfactor"
 
 #: lib/logitech_receiver/settings_templates.py:984
 msgid "Sets the cursor speed."
-msgstr ""
+msgstr "Stelt de cursorsnelheid in."
 
 #: lib/logitech_receiver/settings_templates.py:988
 msgid "Left"
@@ -795,11 +803,11 @@ msgstr "Het meest linker coördinaat."
 
 #: lib/logitech_receiver/settings_templates.py:989
 msgid "Bottom"
-msgstr ""
+msgstr "Bodem"
 
 #: lib/logitech_receiver/settings_templates.py:989
 msgid "Bottom coordinate."
-msgstr ""
+msgstr "Bodem coördinaat."
 
 #: lib/logitech_receiver/settings_templates.py:990
 msgid "Width"
@@ -835,11 +843,11 @@ msgstr "Pas het gedrag van het trackpad/de muis aan."
 
 #: lib/logitech_receiver/settings_templates.py:1015
 msgid "Gestures Diversion"
-msgstr ""
+msgstr "Gebaren omdraaien"
 
 #: lib/logitech_receiver/settings_templates.py:1016
 msgid "Divert mouse/touchpad gestures."
-msgstr ""
+msgstr "Draai muis/touchpad gebaren om"
 
 #: lib/logitech_receiver/settings_templates.py:1032
 msgid "Gesture params"
@@ -851,7 +859,7 @@ msgstr "Pas de numerieke waarden van het trackpad/de muis aan."
 
 #: lib/logitech_receiver/settings_templates.py:1057
 msgid "M-Key LEDs"
-msgstr ""
+msgstr "M-Key LED's"
 
 #: lib/logitech_receiver/settings_templates.py:1059
 msgid "Control the M-Key LEDs."
